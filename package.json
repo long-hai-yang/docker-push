@@ -1,0 +1,27 @@
+{
+  "name": "docker-push",
+  "version": "0.0.1",
+  "description": "docker-push",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haiyanglong/docker-push.git"
+  },
+  "keywords": [
+    "docker",
+    "push"
+  ],
+  "author": "龙海洋",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haiyanglong/docker-push/issues"
+  },
+  "homepage": "https://github.com/haiyanglong/docker-push#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "request": "^2.81.0"
+  }
+}
