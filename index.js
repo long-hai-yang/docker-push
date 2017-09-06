@@ -12,7 +12,8 @@ program
     .option('-n, --name <name>', 'your name')
     .option('-url, --url <url>', 'your url')
 program.parse(process.argv)
-var _auth=new Buffer({"username":program.username,"password":program.password,"serverAddress":program.serveraddress});
+var _auth=JSON.stringify({"username":program.username,"password":program.password,"serverAddress":program.serveraddress});
+_auth=new Buffer(_auth);
 _auth=_auth.toString('base64');
 // console.log(program.name);
 push(_auth);
