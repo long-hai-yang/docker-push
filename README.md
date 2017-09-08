@@ -10,10 +10,10 @@
   Options:
 
     -V, --version      //output the version number输出版本号
-    -u, --username <sv>     //your username你登录dokcer的账号
-    -p, --password <password>    //your password你登录dokcer的密码
-    -ad, --serveraddress <serveraddress>  //your serveraddress你服务的地址
-    -n, --name <name>  //your name 你的docker包名
-    -url, --url <url>  //your url你服务器的地址
+    -u, --username &lt;sv&gt;     //your username必填参数，你登录dokcer的账号
+    -p, --password &lt;password&gt;    //your password必填参数，你登录dokcer的密码
+    -ad, --serveraddress &lt;serveraddress&gt;  //your serveraddress必填参数，你服务的地址
+    -n, --name &lt;name&gt;  //your name 必填参数，你的docker包名
+    -url, --url &lt;url&gt;  //your url必填参数，你服务器的地址
     -h, --help         //output usage information帮助文档
 </code></pre>
